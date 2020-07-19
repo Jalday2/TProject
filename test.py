@@ -2,6 +2,8 @@ import os
 import subprocess
 import numpy as np
 
+#run
+
 os.system("cd thalassa_dir\n ./thalassa.x in/input.txt in/object.txt") 
 
 import numpy as np

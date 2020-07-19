@@ -1,0 +1,10 @@
+total 52
+-rw-r--r-- 1 javier javier 5111 Mar  2 09:30 cart.dat
+-rw-rw-r-- 1 javier javier 5111 Jun 28 13:28 cartNoC.dat
+-rw-r--r-- 1 javier javier  941 Jun 28 13:28 Main.py
+-rw-r--r-- 1 javier javier 1068 Jun 28 13:03 old convert.py
+-rw-r--r-- 1 javier javier 5111 Mar  2 09:30 orbels.dat
+-rw-rw-r-- 1 javier javier 5111 Jun 28 13:28 orbelsNoC.dat
+-rw-r--r-- 1 javier javier 5111 Apr 12 18:17 random numbers.txt
+-rw-r--r-- 1 javier javier  117 Jun 28 16:45 test.py
+-rw-r--r-- 1 javier javier    0 Jun 28 16:45 test.txt
