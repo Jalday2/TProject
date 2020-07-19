@@ -1,14 +1,20 @@
-file1=open('file1.txt','r')
-file2=open('file2.txt','r')
+cont = int(input("how many inputs? : "))
 
-linesIn = file1.readlines()
-linesOut = file2.readlines()
-file2=open('file2.txt','w')
-
-print(linesOut[2],'\n',linesIn[1])	
-linesOut[2]=linesIn[1]
-
-file2.writelines(linesOut)
+for x in range(0, cont):
+	file1=open('file1.txt','r')
+	file2=open('file2.txt','r')
 	
-file1.close()
-file2.close()
+	linesIn = file1.readlines()
+	linesOut = file2.readlines()
+	file2=open('file2.txt','w')
+
+	for z in range(0,16):
+		print(linesOut[2],linesIn[1])	
+		linesOut[z]=linesIn[z]
+
+	file2.writelines(linesOut)
+	
+	file1.close()
+	file2.close()
+	
+	b = input("enter to continue : ")

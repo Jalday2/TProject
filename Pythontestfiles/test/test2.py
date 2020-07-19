@@ -1,0 +1,26 @@
+cont = int(input("how many inputs? : "))
+
+ObjectM =open('MultipleObject.txt','r')
+linesInObj = ObjectM.readlines()
+
+for x in range(0, cont):
+	#inputf=open('input.txt','r')
+	objectf=open('object.txt','r')
+	
+	#linesOutIn = inputf.readlines()
+	linesOutObj = objectf.readlines()
+	#inputf=open('inputf.txt','w')
+	objectf=open('object.txt','w')
+
+	for z in range(0,16):
+		print(z)
+		print(linesOutObj[z],linesInObj[z])	
+		linesOutObj[z]=linesInObj[z + 16 * x]
+
+	objectf.writelines(linesOutObj)
+	
+	objectf.close()
+	
+	b = input("enter to continue : ")
+
+ObjectM.close()

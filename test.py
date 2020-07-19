@@ -2,22 +2,13 @@ import os
 import subprocess
 import numpy as np
 
-#run
-
+#this line runs thalassa
 os.system("cd thalassa_dir\n ./thalassa.x in/input.txt in/object.txt") 
-
-import numpy as np
-
-#tempNum = 0.0
-#position = 0
-#sign = 1
-#power = 1.0
 
 TextIn = ["./out/orbels.dat", "./out/cart.dat"]
 TextOut = ["./editedOut/orbelsNoC.dat", "./editedOut/cartNoC.dat"]
 
-#print(TextIn[0],TextIn[1],TextOut[0],TextOut[1])
-
+#this for loop makes a copy of the ouptut file with no commas then converts that file into numpy arrays
 for j in range(2):
 	
 	TempTxtIn=open(TextIn[j],"r+")
