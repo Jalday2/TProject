@@ -1,0 +1,3 @@
+[submodule "thalassa_dir"]
+	path = thalassa_dir
+	url = https://gitlab.com/souvlaki/thalassa
