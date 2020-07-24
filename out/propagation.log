@@ -1,5 +1,17 @@
 # THALASSA LOG FILE           
 # THALASSA version: v1.2      
-Start logging on 20200716T223345.820 UTC-0700.
+Start logging on 20200724T134009.917 UTC-0700.
 Location of settings file: in/input.txt
 Location of initial conditions file: in/object.txt
+SPICE kernels loaded through ./data/kernels_to_load.furnsh
+Initialized the state vector for eqs =  2
+Initialized solver settings, entering the integration loop.
+Propagation terminated with exit code =   0                                                                                     
+Final time reached.                                                                                                             
+CPU time:   7.877     s
+Dumping output to disk.
+Integration tolerance:  0.1000E-12
+ Total function calls:      526311
+    Integration steps:      252227
+     Lifetime (years):   4.00000000000000    
+End logging on 20200724T134017.580 UTC-0700.
