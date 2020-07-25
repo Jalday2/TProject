@@ -92,4 +92,4 @@ for x in range(0, countObjM):
 	#b = input("enter to continue : ") 
 
 ObjectM.close()
-InputM.close()#
+InputM.close()
