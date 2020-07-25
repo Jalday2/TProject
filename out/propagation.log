@@ -1,6 +1,6 @@
 # THALASSA LOG FILE           
 # THALASSA version: v1.2      
-Start logging on 20200725T144510.370 UTC-0700.
+Start logging on 20200725T155916.460 UTC-0700.
 Location of settings file: in/input.txt
 Location of initial conditions file: in/object.txt
 SPICE kernels loaded through ./data/kernels_to_load.furnsh
@@ -8,10 +8,10 @@ Initialized the state vector for eqs =  2
 Initialized solver settings, entering the integration loop.
 Propagation terminated with exit code =   1                                                                                     
 Earth collision detected.                                                                                                       
-CPU time:   1.254     s
+CPU time:   1.181     s
 Dumping output to disk.
 Integration tolerance:  0.1000E-12
  Total function calls:      125766
     Integration steps:       60856
      Lifetime (years):  0.711860953776238E-01
-End logging on 20200725T144511.489 UTC-0700.
+End logging on 20200725T155917.515 UTC-0700.
