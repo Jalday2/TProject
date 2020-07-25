@@ -2,7 +2,8 @@
 Thalassa run with some python
 
 This program runs thalassa using python and can run it multiple times depending on how many inputs you put inside the
-text files inside the multpileInputs folder. It also converts the outputs in numpy arrays and exports them to excel
+text files inside the multpileInputs folder. It also converts the outputs in numpy arrays and exports them to excel files
+inside the out folder
 
 To get it running run 
 
