@@ -8,9 +8,9 @@ TotalT = 0
 TimesR = 0
 
 #Opens the text files with the multiple object and input settings
-ObjectM =open('./MultipleIn/MultipleObject.txt','r')
+ObjectM =open('./MultipleInputs/MultipleObject.txt','r')
 linesInObj = ObjectM.readlines()
-InputM =open('./MultipleIn/MultipleInput.txt','r')
+InputM =open('./MultipleInputs/MultipleInput.txt','r')
 linesInInp = InputM.readlines()
 
 #gets the lines in the multiple object and input settings in float and int form
@@ -43,14 +43,10 @@ for x in range(0, countObjM):
 
 	#replaces object lines in thalassa from multiple object file
 	for z in range(0,16):
-		#print(z)
-		#print(linesOutObj[z],linesInObj[z])	
 		linesOutObj[z]=linesInObj[z + 16 * x]
 		
 	#stops replacing input settings if there is only one or 2
 	if countInM > x:
-		#print(countInM)
-		#countInM -= 1
 		for z2 in range(0,46):
 			#print(z2)
 			#print(linesOutInp[z2],linesInInp[z2])	
@@ -68,9 +64,7 @@ for x in range(0, countObjM):
 	LengthT = tea.time() - StartT
 	TotalT += tea.time() - StartT
 	
-	#b = input("enter to continue : ") 
-	
-print('A total of',countObjM,'inputs took ', str(round(TotalT, 3)), 'seconds with an average of ', str(round(TotalT/countObjM, 3)),'seconds per run')
+print('A total of',countObjM,'inputs took', str(round(TotalT, 3)), 'seconds with an average of', str(round(TotalT/countObjM, 3)),'seconds per run')
 
 ObjectM.close()
 InputM.close()
