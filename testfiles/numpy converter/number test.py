@@ -12,8 +12,6 @@ import numpy as np
 
 #print(f_numbers)
 
-#
-
 #f.close
 
 tempNum = 0.0

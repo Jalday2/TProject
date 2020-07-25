@@ -64,7 +64,7 @@ for x in range(0, countObjM):
 	LengthT = tea.time() - StartT
 	TotalT += tea.time() - StartT
 	
-print('A total of',countObjM,'inputs took', str(round(TotalT, 3)), 'seconds with an average of', str(round(TotalT/countObjM, 3)),'seconds per run')#
+print('A total of',countObjM,'inputs took', str(round(TotalT, 3)), 'seconds with an average of', str(round(TotalT/countObjM, 3)),'seconds per run')
 
 ObjectM.close()
 InputM.close()
