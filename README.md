@@ -12,4 +12,5 @@ then in that folder run this to get thalassa
 
 git clone https://gitlab.com/souvlaki/thalassa.git/ Thalassa
 
-Then after you set up thalassa my program should be able to be run using python3 tMain.py or python3 speedTest.py
+Then after you set up thalassa and make sure the out file is set to the out folder and edit the MultipleInput.txt file 
+to the correct location on your computer my program should be able to be run using python3 tMain.py or python3 speedTest.py
